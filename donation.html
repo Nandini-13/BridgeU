@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - BridgeU</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="donation.css">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <!-- <script defer src="donation.js"></script> -->
+</head>
+<body>
+
+    <!-- Donation Section -->
+    <section class="donation-section">
+        <h1>Support BridgeU</h1>
+        <p>Your contributions help us to grow and support alumni in need.</p>
+
+        <!-- Donation Form -->
+        <form id="donation-form">
+            <label for="donation-amount">Donation Amount (INR):</label>
+            <input type="number" id="donation-amount" name="amount" required min="1" step="0.01">
+            <button type="submit" class="cta-btn">Donate Now</button>
+        </form>
+    </section>
+
+    <!-- Request Donation Section -->
+    <section class="request-donation-section">
+        <h2>Request for Donations</h2>
+        <p>If you need financial support, please submit your donation request below.</p>
+
+        <!-- Request Donation Form -->
+        <form id="request-donation-form">
+            <label for="request-title">Request Title:</label>
+            <input type="text" id="request-title" name="title" required>
+            
+            <label for="request-description">Describe Your Need:</label>
+            <textarea id="request-description" name="description" required></textarea>
+            
+            <button type="submit" class="cta-btn">Submit Request</button>
+        </form>
+    </section>
+
+</body>
+</html>
