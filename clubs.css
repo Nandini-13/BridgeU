@@ -1,3 +1,7 @@
+html{
+    background: linear-gradient(297deg, #A781F5 -17.96%, #FFF -17.96%, #A781F5 117%);
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
