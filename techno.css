@@ -5,10 +5,13 @@
   }
   
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background: linear-gradient(297deg, #A781F5 -17.96%, #FFF -17.96%, #A781F5 117%);
     color: #333;
+  }
+  h2{
+    color: black;
   }
   
   header {
@@ -90,7 +93,7 @@
   }
   
   .donate-btn {
-    background-color: #333;
+    background-color: #6e1ace;
     color: #fff;
     padding: 15px 30px;
     border: none;
@@ -99,17 +102,7 @@
     cursor: pointer;
   }
   
-  .donate-btn:hover {
-    background-color: #555;
-  }
-  
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-  }
-  
+
   @media (max-width: 768px) {
     header {
       flex-direction: column;
